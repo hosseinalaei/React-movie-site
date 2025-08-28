@@ -1,6 +1,10 @@
 .search-list-handler {
   width: 200px;
   background-color: #fff;
+  position: absolute;
+  max-height: 15rem;
+  overflow-y: auto;
+  /* margin-top: 2rem; */
   /* z-index: 9000;*/
 }
 .search-list {
