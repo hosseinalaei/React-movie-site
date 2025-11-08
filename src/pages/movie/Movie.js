@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams } from "react-router";
 import { imageServerUrl } from "../../constants";
 import { galleryServerUrl } from "../../constants";
 import { apiConfig } from "../../api/api";

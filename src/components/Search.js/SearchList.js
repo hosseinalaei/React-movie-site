@@ -1,7 +1,9 @@
 import { imageServerUrl } from "../../constants";
 import { textDots } from "../../helpers";
 import get from "lodash/get";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+// import { BrowserRouter as Router, Routes, Route, Link } from "react-router";
+// import { BrowserRouter, Routes, Route, NavLink } from "react-router";
+import { Link } from "react-router";
 
 // import './style.css';
 

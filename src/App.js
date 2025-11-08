@@ -1,13 +1,8 @@
-import { Fragment } from "react";
 import MainRouter from "./router/Router";
-import './App.css';
+import "./App.css";
 
 function App() {
-  return (
-    <Fragment>
-      <MainRouter />
-    </Fragment>
-  )
+  return <MainRouter />;
 }
 
 export default App;
