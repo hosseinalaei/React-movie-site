@@ -9,7 +9,7 @@ const Search = () => {
   const [movies, setMovies] = useState([]);
   const [loading, setLoading] = useState(false);
 
-  useEffect(async () => {
+  const fetchSearch = async () => {
     if (search.length >= 3) {
       setLoading(true);
       try {
@@ -25,6 +25,9 @@ const Search = () => {
         setLoading(false);
       }
     } else setMovies([]);
+  };
+  useEffect(() => {
+    fetchSearch();
   }, [search]);
 
   const searchMovie = (e) => {
