@@ -21,7 +21,7 @@ const CategoriesPage = () => {
   return (
     <div className="grid grid-cols-6">
       {data?.map((item: Categories) => {
-        return <CategoriCard title={item.name} />;
+        return <CategoriCard title={item.name} key={item.id} />;
       })}
     </div>
   );

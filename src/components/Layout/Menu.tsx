@@ -5,22 +5,22 @@ const Menu = () => {
     {
       id: 1,
       title: "Home",
-      path: "/",
+      path: "/hotflix",
     },
     {
       id: 2,
       title: "Categories",
-      path: "/categories",
+      path: "/hotflix/categories",
     },
     {
       id: 3,
       title: "Movies",
-      path: "/",
+      path: "/hotflix",
     },
     {
       id: 4,
       title: "Series",
-      path: "/",
+      path: "/hotflix",
     },
   ];
   return (
